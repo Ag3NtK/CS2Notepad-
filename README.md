@@ -36,4 +36,19 @@ Round type:
 Strat name prefix (with prefix):
 <br />
     "-"
+<br />
+<br />
+<br />
+Comment styler:
+<br />
+<br />
+    //
+<br />
+<br />
+<br />
+Folding in styles:
+<br />
+<br />
+    {} ()
+
 
