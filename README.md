@@ -1,6 +1,3 @@
-Import to notepad++.
-<br />
-<br />
 Names and pronouns (With prefix): 
 <br />
 <br />
