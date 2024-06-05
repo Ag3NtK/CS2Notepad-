@@ -1,0 +1,8 @@
+// Turn off folding lines
+sci_sendmsg SCI_SETFOLDFLAGS SC_FOLDFLAG_NONE
+
+// Set alpha channel of hidden line color to fully transparent
+sci_sendmsg SCI_GETELEMENTCOLOUR SC_ELEMENT_HIDDEN_LINE
+set local $(NewColor) ~ $(MSG_RESULT) & 0x00FFFFFF
+sci_sendmsg SCI_SETELEMENTCOLOUR SC_ELEMENT_HIDDEN_LINE $(NewColor)
+npp_console 0
